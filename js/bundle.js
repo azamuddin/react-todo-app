@@ -121,8 +121,7 @@ var TodoApp = React.createClass({displayName: "TodoApp",
         React.createElement(TodoCounter, {
           all: this.state.todos.length, 
           done: _.where(this.state.todos, {done: 'yes'}).length, 
-          notdone: _.where(this.state.todos, {done: ''}).length, 
-          onFilter: this.filterTodos}
+          notdone: _.where(this.state.todos, {done: ''}).length}
           )
       )
     );
@@ -143,9 +142,9 @@ var TodoCounter = React.createClass({displayName: "TodoCounter",
   render: function() {
     return (
       React.createElement("div", {className: "counter"}, 
-        React.createElement("span", {onClick: this.filter.bind(this, 'all')}, "semua (", this.props.all, ") "), 
-        React.createElement("span", {onClick: this.filter.bind(this, 'yes')}, "selesai (", this.props.done, ") "), 
-        React.createElement("span", {onClick: this.filter.bind(this, 'notdone')}, "belum selesai (", this.props.notdone, ") ")
+        React.createElement("span", null, "semua (", this.props.all, ") "), 
+        React.createElement("span", null, "selesai (", this.props.done, ") "), 
+        React.createElement("span", null, "belum selesai (", this.props.notdone, ") ")
       )
     );
   }
