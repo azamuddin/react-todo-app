@@ -8,9 +8,9 @@ var TodoCounter = React.createClass({
   render: function() {
     return (
       <div className="counter">
-        <span onClick={this.filter.bind(this, 'all')}>semua ({this.props.all}) </span>
-        <span onClick={this.filter.bind(this, 'yes')}>selesai ({this.props.done}) </span>
-        <span onClick={this.filter.bind(this, 'notdone')}>belum selesai ({this.props.notdone}) </span>
+        <span>semua ({this.props.all}) </span>
+        <span>selesai ({this.props.done}) </span>
+        <span>belum selesai ({this.props.notdone}) </span>
       </div>
     );
   }

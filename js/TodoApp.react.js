@@ -121,7 +121,6 @@ var TodoApp = React.createClass({
           all={this.state.todos.length}
           done={_.where(this.state.todos, {done: 'yes'}).length}
           notdone={_.where(this.state.todos, {done: ''}).length}
-          onFilter={this.filterTodos}
           />
       </div>
     );
