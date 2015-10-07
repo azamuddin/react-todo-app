@@ -1,33 +1,8 @@
 {
   "todos": [
     {
-      "id": "02b0efb4-0fde-4717-8d3e-2b35bfba62dd",
-      "title": "whaaaaa okay",
-      "done": "yes"
-    },
-    {
-      "id": "5f976487-cd14-4411-83a4-e1c1502e6fd6",
-      "title": "dan lagi alright",
-      "done": "yes"
-    },
-    {
-      "id": "c06d934c-a417-4ac5-a885-2b50c7c7fad7",
-      "title": "helo",
-      "done": "yes"
-    },
-    {
-      "id": "62ce862d-73a8-4b31-86a5-7ef9066d858a",
-      "title": "bermain dan belajar",
-      "done": "yes"
-    },
-    {
-      "id": "0ad73b1c-8b9a-4f78-bffc-2fc6772f132e",
-      "title": "add",
-      "done": "yes"
-    },
-    {
-      "id": "7d5a664c-b477-4c4f-9ee1-4b0b8c6c4ef1",
-      "title": "h",
+      "id": "2953b830-77b3-4522-87c5-91819027d6ce",
+      "title": "Ikuti meetup reactjs",
       "done": ""
     }
   ]
