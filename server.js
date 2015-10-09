@@ -10,6 +10,7 @@ var assign = require('object-assign');
 app.use(bodyParser.json()); // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 app.use(cors());
+app.use(express.static(__dirname+'/'));
 
 
 app.get('/api/todos', function (req, res){
@@ -26,6 +27,10 @@ app.get('/api/todos', function (req, res){
     }
   }
   res.send(db('todos'));
+});
+
+app.get('/', function(req, res){
+  res.sendFile('../index.html');
 });
 
 app.post('/api/todos', function(req, res){
@@ -52,5 +57,5 @@ var server = app.listen(9000, function () {
   var host = server.address().address;
   var port = server.address().port;
 
-  console.log('Example app listening at http://%s:%s', host, port);
+  console.log('Todolist app listening at http://%s:%s', host, port);
 });

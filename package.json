@@ -1,0 +1,37 @@
+{
+  "name": "todolist-react-meetup",
+  "version": "0.0.1",
+  "description": "todolist demo app for react-meetup",
+  "main": "server.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "firebase": "^2.3.1",
+    "express": "^4.13.3",
+    "cors": "^2.7.1",
+    "lowdb": "^0.10.2",
+    "object-assign": "^4.0.1",
+    "lodash": "^3.10.1",
+    "jquery": "^2.1.4",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1",
+    "uuid": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azamuddin/react-todo-app.git"
+  },
+  "author": "Muhammad Azamuddin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azamuddin/react-todo-app/issues"
+  },
+  "homepage": "https://github.com/azamuddin/react-todo-app"
+}
